@@ -1,0 +1,38 @@
+body {
+  background-color: azure;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+hr {
+  width: 50%;
+  height: 3px;
+  background-color: black;
+}
+th, td {
+  text-align: center;
+  border: 1px solid black;
+  /*border-collapse: collapse;*/
+  padding: 10px;
+}
+.Shopping_cart {
+  margin: auto;
+  width: 60%;
+  margin-top: 20px;
+  background-color: beige;
+}
+.quant {
+  width: 50px;
+}
+td button {
+  margin-left: 10px;
+}
+.add-item {
+  margin-top: 20px;
+}
+.add-item input {
+  padding: 5px;
+  margin: 5px;
+}

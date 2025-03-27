@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+
+    <h1>SHOPPING LIST</h1>
+     <hr>
+     <div class="add-item">
+        <input type="text" id="itemName" placeholder="Item Name">
+        <input type="number" id="itemQuantity" placeholder="Quantity" min="1">
+        <input type="number" id="itemPrice" placeholder="Price" min="0" step="1">
+        <button onclick="addItem()">Add Item</button>
+    </div>
+
+<!--
+<div class="shopping-header">
+    <img src="./images/shoppinglist.jpg" height="50px" />
+</div>
+-->
+
+<table class="Shopping_cart">
+    <tr>
+        <th>S.no</th>
+        <th>Item</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Total</th>
+    </tr>
+    <tbody id="groceryList"></tbody>
+    <tr>
+        <td>Total Price</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>₹<span id="totalCost">0.00</span></td>
+    </tr>
+</table>
+
+   <script src="./script.js"></script>
+</body>
+</html>
